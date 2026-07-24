@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaiCode - Image Gallery & Responsive Media</title>
+</head>
+<body>
+
+    <header>
+        <a href="https://chaicode.com" target="_blank" rel="noopener noreferrer">
+            <img src=https://ui.chaicode.com/chai-logo.png
+                 alt="ChaiCode Logo" 
+                 width="180" 
+                 height="auto">
+        </a>
+        <h1>ChaiCode Image Gallery</h1>
+        <p>Demonstrating responsive media, semantic figures, and image portals.</p>
+    </header>
+
+    <hr>
+
+    <main>
+
+      
+        <section>
+            <h2>1. Responsive Image with &lt;picture&gt; Element</h2>
+            <p>Resize your browser window to test how different images load based on screen width:</p>
+
+            <picture>
+                <source media="(min-width: 1024px)" srcset="https://picsum.photos/id/1015/1000/400">
+
+                <source media="(min-width: 600px)" srcset="https://picsum.photos/id/1015/700/350">
+
+                <img src="https://picsum.photos/id/1015/400/250" 
+                     alt="Responsive Landscape Banner" 
+                     style="max-width: 100%; height: auto;">
+            </picture>
+        </section>
+
+        <hr>
+
+    
+        <section>
+            <h2>2. Semantic Showcase Gallery</h2>
+
+            <!-- Figure 1: Web Development Workspace -->
+            <figure>
+                <a href="https://chaicode.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://picsum.photos/id/1/600/350" 
+                         alt="Coding Workspace" 
+                         width="600" 
+                         style="max-width: 100%; height: auto;">
+                </a>
+                <figcaption>
+                    <strong>Figure 1:</strong> The Developer Setup — Building modern web applications with precision and clean code structure.
+                </figcaption>
+            </figure>
+
+            <br>
+
+            <!-- Figure 2: Chai & Code Learning Culture -->
+            <figure>
+                <a href="https://chaicode.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://picsum.photos/id/1060/600/350" 
+                         alt="Coffee and Laptop" 
+                         width="600" 
+                         style="max-width: 100%; height: auto;">
+                </a>
+                <figcaption>
+                    <strong>Figure 2:</strong> Sip Chai, Write Code — Embracing consistency during late-night debugging and cohort labs.
+                </figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>3. Various Image Sizes Showcase</h2>
+
+            <p><strong>Small Thumbnail (150x150):</strong></p>
+            <img src="https://picsum.photos/id/180/150/150" alt="Small Tech Icon" width="150" height="150">
+
+            <p><strong>Medium Card Image (300x200):</strong></p>
+            <img src="https://picsum.photos/id/160/300/200" alt="Medium Tech Preview" width="300" height="200">
+
+            <p><strong>Full-width Responsive Image:</strong></p>
+            <img src="https://picsum.photos/id/201/800/300" alt="Wide Technical Banner" style="max-width: 100%; height: auto;">
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 ChaiCode.com - All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
