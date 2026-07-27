@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaiCode Full-Stack Cohort Overview</title>
+   
+</head>
+<body>
+
+    <!-- Main Table Container -->
+    <table>
+        <!-- 1. Caption -->
+        <caption> ChaiCode Full-Stack Web Development Curriculum Overview</caption>
+
+        <!-- 2. Colgroup & Col Styling -->
+        <colgroup>
+            <col style="background-color: #f9fafb; width: 20%;">
+            <col style="background-color: #ffffff; width: 30%;">
+            <col style="background-color: #f0f9ff; width: 25%;">
+            <col style="background-color: #fffbe6; width: 25%;">
+        </colgroup>
+
+        <!-- 3. Table Header (thead & th) -->
+        <thead>
+            <tr style="background-color: #f97316; color: white;">
+                <th>Phase Category</th>
+                <th>Core Modules</th>
+                <th>Key Projects</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+
+        <!-- 3. Table Body (tbody) -->
+        <tbody>
+            <!-- Category 1: Frontend (rowspan used) -->
+            <tr>
+                <!-- 5. Rowspan: Merging 2 rows for Frontend -->
+                <td rowspan="2"><strong>Frontend Architecture</strong></td>
+                <td>HTML5 Semantics &amp; CSS Layouts</td>
+                <td>List Archives &amp; Flex Layouts</td>
+                <td>3 Weeks</td>
+            </tr>
+            <tr>
+                <!-- Category cell merged from above -->
+                <td>Modern JavaScript &amp; DOM</td>
+                <td>Interactive Web Apps</td>
+                <td>4 Weeks</td>
+            </tr>
+
+            <!-- Category 2: Full-Stack (colspan used) -->
+            <tr>
+                <td><strong>MERN Stack</strong></td>
+                <td>React.js &amp; Express REST APIs</td>
+                <!-- 5. Colspan: Merging Project & Duration for Special Bootcamp -->
+                <td colspan="2" align="center"><strong>Integrated Compiler &amp; Dashboard Capstone (8 Weeks)</strong></td>
+            </tr>
+
+            <!-- Category 3: Database & Cloud -->
+            <tr>
+                <td><strong>Backend &amp; DB</strong></td>
+                <td>MongoDB &amp; Mongoose Schemas</td>
+                <td>Database Auth System</td>
+                <td>3 Weeks</td>
+            </tr>
+        </tbody>
+
+        <!-- 3. Table Footer (tfoot) -->
+        <tfoot>
+            <tr style="background-color: #1f2937; color: white;">
+                <!-- Colspan to align footer total -->
+                <td colspan="3" align="right"><strong>Total Cohort Duration:</strong></td>
+                <td><strong>18 Weeks (4.5 Months)</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
