@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Multimedia Masterclass</title>
+</head>
+<body>
+
+
+    <h1>Multimedia Masterclass Showcase</h1>
+    <p>This page demonstrates complete HTML mastery by combining video with captions, audio playback, embedded frames, inline vector graphics, and a dynamic HTML5 canvas drawing board—all structured using pure HTML without any external CSS styling sheets.</p>
+
+    <hr>
+
+    <!-- 1. Video with Captions -->
+    <h2>1. Video with Closed Captions</h2>
+    <p>Play the video below and enable captions via the player controls.</p>
+    <video width="640" height="360" controls poster="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/800px-Big_buck_bunny_poster_big.jpg">
+        
+        <!-- 1. Active Video Stream Link -->
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        
+        <!-- 2. Active Subtitle Track File -->
+        <track src="https://gist.githubusercontent.com/irfanhabib/6090539/raw/bb02c11867c42dfd08c52084c8d578db907d727a/subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+
+        <!-- Fallback Message -->
+        Your browser does not support the video tag.
+    </video>
+
+    <hr>
+
+    <!-- 2. Audio Player -->
+    <h2>2. Audio Player</h2>
+    <p>Listen to an audio stream using the native HTML5 audio controls.</p>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <hr>
+
+    <!-- 3. Embedded iframe -->
+    <h2>3. Embedded External Content (Iframe)</h2>
+    <p>An interactive embedded Google Map showing Gomal University.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.418296765063!2d70.90373857500532!3d31.83404397405232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b8cc4407b469e1%3A0x6b772c21946c59b9!2sGomal%20University!5e0!3m2!1sen!2s!4v1723101000000!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <hr>
+
+    <!-- 4. SVG Graphic -->
+    <h2>4. Inline Scalable Vector Graphics (SVG)</h2>
+    <p>A vector-based custom graphic rendered directly inside the HTML markup.</p>
+    <svg width="400" height="200" viewBox="0 0 400 200">
+        <rect x="10" y="10" width="380" height="180" rx="15" fill="#f4f4f6" stroke="#d1d5db" stroke-width="2" />
+        <circle cx="110" cy="100" r="50" fill="#ef4444" />
+        <rect x="200" y="60" width="140" height="80" rx="8" fill="#3b82f6" />
+    </svg>
+
+    <hr>
+
+    <!-- 5. Canvas Element -->
+    <h2>5. HTML5 Canvas Element</h2>
+    <p>A blank pixel grid ready for programmatic drawing via scripting interfaces.</p>
+    <canvas id="masterclassCanvas" width="600" height="300">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+
+
+</body>
+</html>
